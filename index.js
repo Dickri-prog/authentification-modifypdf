@@ -14,7 +14,7 @@ app.use(fileUpload());
 
 
 app.use(cors({
-  origin: ['https://seller-id.tiktok.com', 'https://seller.shopee.co.id', 'https://sellercenter.lazada.co.id']
+  origin: "*"
 }));
 // Octokit.js
 // https://github.com/octokit/core.js#readme
