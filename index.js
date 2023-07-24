@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 let shaData = null;
 let usersData = [];
 let fetchedData = false;
-const secretKey = 'KYYKYKKY-ykkykyyk-578875';
+const secretKey = process.env.webTokenSecretKey;
 
 app.use(fileUpload());
 
