@@ -1,0 +1,27 @@
+{
+  "name": "authentification-modifypdf",
+  "version": "1.0.0",
+  "description": "this tools for my work",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dickri-prog/authentification-modifypdf.git"
+  },
+  "author": "M.D",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.1",
+    "octokit": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Dickri-prog/authentification-modifypdf/issues"
+  },
+  "homepage": "https://github.com/Dickri-prog/authentification-modifypdf#readme"
+}
